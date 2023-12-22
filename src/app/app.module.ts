@@ -3,12 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SelectorPageComponent } from './countries/pages/selector-page/selector-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SelectorPageComponent
+
   ],
   imports: [
     BrowserModule,
