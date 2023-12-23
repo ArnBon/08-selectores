@@ -32,10 +32,7 @@ export class SelectorPageComponent implements OnInit {
     }
 
     ngOnInit(): void {
-        this.myForm.get('region')!.valueChanges
-        .subscribe(region => {
-          return this.countriesServices.regions;
-        });
+        this.onRegionChanged();
       }
 
       onRegionChanged(): void {
